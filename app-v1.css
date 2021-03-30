@@ -1,0 +1,68 @@
+ul {
+    list-style: none;
+    font-size: 1.5em;
+    background-color: white;
+    padding-left: 50px;
+    width:25rem;
+    /* list-style-position: inside; */
+    text-indent: -40px;
+    /* margin-left: 30px;    */
+    display: flex;
+    flex-direction: column;
+
+}
+
+html {
+    background-color: #ffcc00;
+}
+
+hr {
+    background-color: black;
+    width: 25rem;
+    height: 1px;
+    opacity: 0.2;
+    text-indent: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="checkbox"]{
+    margin: 5px 60px 5px 5px;   
+    /* padding-right: 50px; */
+}
+
+/* li span {
+    margin-left: 30px;
+    text-indent: -30px;
+
+} */
+
+li {
+    /* margin-bottom: 1.5em; */
+    text-align: left;
+    /* margin-top:1em; */
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+    /* border-bottom:1px solid grey; */
+    border-bottom: 1px solid #F1F1F1;
+    border-left: 1px solid #D1E2FF;
+    padding: 20px;
+    padding-left:5px;
+
+
+   
+}
+
+li:last-child {
+    border-bottom: 0;
+  }
+
+li.onCheck {
+    text-decoration:line-through;
+    background: #F9F9F9;
+
+}
